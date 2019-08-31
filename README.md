@@ -53,16 +53,23 @@ Step 2. Add the dependency
         
 	
 	
+	
   activity引用：
           //监听刷新事件
+	  
         mPullSunRefreshView.setOnRefreshListener(new PullSunRefreshView.OnRefreshListener() {
+	
             @Override
             public void onRefresh() {
+	    
                 mPullSunRefreshView.postDelayed(new Runnable() {
+		
                     @Override
                     public void run() {
+		    
                         mPullSunRefreshView.setRefreshing(false);
                     }
+		    
                 }, 1000);
             }
         });

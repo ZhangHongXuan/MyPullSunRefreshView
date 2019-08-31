@@ -1,5 +1,6 @@
 # MyPullToRefreshView
 刷新 楼房背景 太阳旋转
+
 gradle中引用：
 Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
@@ -15,10 +16,12 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.okzhx:MyPullSunRefreshView:1.0.0'
 	}
+	
+	maven中引用：
   
   Step 1. Add the JitPack repository to your build file
 
-maven中引用：
+
 
 	<repositories>
 		<repository>
@@ -48,6 +51,8 @@ Step 2. Add the dependency
 
         </com.zhx.pullsunrefreshview.PullSunRefreshView>
         
+	
+	
   activity引用：
           //监听刷新事件
         mPullSunRefreshView.setOnRefreshListener(new PullSunRefreshView.OnRefreshListener() {

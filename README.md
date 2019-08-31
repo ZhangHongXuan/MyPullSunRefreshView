@@ -38,17 +38,26 @@ Step 2. Add the dependency
 	</dependency>
   
   布局文件：
+  
           <com.zhx.pullsunrefreshview.PullSunRefreshView
+	  
             android:id="@+id/refresh_pull"
+	    
             android:layout_width="match_parent"
+	    
             android:layout_height="match_parent">
+	    
             <android.support.v7.widget.RecyclerView
+	    
                 android:id="@+id/recyclerview"
+		
                 android:layout_width="match_parent"
+		
                 android:layout_height="match_parent">
+		
 
             </android.support.v7.widget.RecyclerView>
-
+	    
         </com.zhx.pullsunrefreshview.PullSunRefreshView>
         
 	
